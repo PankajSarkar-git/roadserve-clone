@@ -1,0 +1,115 @@
+.carousel-contaer{
+
+    padding-top: 10rem;
+}
+.carousel-contaer .carousel {
+    background-image: url("/src//img/carousel/img-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-contaer .carousel .main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+
+}
+
+.carousel-contaer .carousel .main .hero-Container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.hero-Container-box .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+.hero-Container-box .box .left-container {
+    width: 60%;
+}
+
+.hero-Container-box .box .left-container .heading {
+    font-size: 3.2rem;
+    font-weight: 450;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: #3d4759;
+    font-family: Forza;
+
+}
+
+.hero-Container-box .box .left-container .pera {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 1.6rem 0;
+    font-family: Montserrat, sans-serif;
+    color: #505056;
+}
+
+.hero-Container-box .box .right-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.hero-Container-box>.box >.right-container>.img {
+    width: 85%;
+}
+.hero-Container-box>.box > .right-container>.img>img {
+    width: 100%;
+}
+
+.hero-Container-box .box .left-container .primary-button {
+    margin-top: 4rem;
+    padding: 0 0.5rem;
+    background-color: #007aff;
+    border-radius: 1rem;
+    width: 27.5rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-Container-box .box .left-container .primary-button  > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+   font-family: Montserrat, sans-serif;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+}
+.hero-Container-box .box .left-container .primary-button  > a .google-play{
+    font-size: 3rem;
+}
+.hero-Container-box>.box > .right-container> .btn {
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3.2rem;
+    font-size: 4rem;
+    width: 85%;
+}
+.hero-Container-box>.box > .right-container> .btn  .slide-btn{
+  color: #007aff;
+
+}

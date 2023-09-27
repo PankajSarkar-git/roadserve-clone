@@ -1,0 +1,171 @@
+.work-component {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-container {
+    margin-top: 11.2rem;
+    width: 80%;
+}
+
+.container-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-head .heading {
+    color: #007aff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.container-head .sub-heading {
+    color: #3d4759;
+    /* font-family: Montserrat, sans-serif; */
+    font-family: Forza;
+    font-size: 4.6rem;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+.container-head .sub-heading-2 {
+    color: #505056;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.empty {
+    background-image: url("../img/workImages/work-bg.png");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    height: 40.1rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.work-container-body {
+    width: 80%;
+    margin-top: -12rem;
+    margin-bottom:12.8rem;
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-container .item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.6rem;
+    text-align: center;
+    height: 30rem;
+    width: 30rem;
+    box-shadow: 0 2px 1.375rem rgba(8, 72, 105, .08);
+    background-color: #fff;
+}
+
+.box-container .box2 {
+   margin-top: -9.6rem;
+}
+.box-container .box3 {
+    margin-top: 5rem;
+}
+
+
+.box-container .box1 .box-icon {
+    border-radius: 1.8rem;
+    margin: 1.6rem;
+    padding: 1.9rem;
+    position: relative;
+    background: linear-gradient(134.26deg, #7bb6ff 4.96%, #0150c6 99.84%);
+}
+.box-container .box2 .box-icon {
+    border-radius: 1.8rem;
+    margin: 1.6rem;
+    padding: 1.9rem;
+    position: relative;
+    background: linear-gradient(134.26deg,#f7aba0 4.96%,#eb2129 99.84%);
+}
+.box-container .box3 .box-icon {
+    border-radius: 1.8rem;
+    margin: 1.6rem;
+    padding: 1.9rem;
+    position: relative;
+    background: linear-gradient(134.26deg,#93e5b8 4.96%,#3dc773 99.84%);
+}
+.box-container .item .box-icon .icon {
+    font-size: 5rem;
+    color: #fff;
+}
+.box-container .box1 .box-icon .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: #007aff;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.box-container .box2 .box-icon .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: #eb2129;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.box-container .box3 .box-icon .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: #3dc773;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.box-container .item .box-titel{
+   font-size: 1.8rem;
+   color: #505056;
+   font-family: Montserrat,sans-serif;
+    font-weight: 700;
+}
+.box-container .item .box-description{
+   font-size: 1.8rem;
+   color: #505056;
+   font-family: Montserrat,sans-serif;
+    font-weight: 500;
+}
+

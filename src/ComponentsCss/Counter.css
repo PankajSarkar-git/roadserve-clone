@@ -1,0 +1,36 @@
+.counter-section{
+    width: 100%;
+    height: 30.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007aff;
+}
+.counter-section .counter-container{
+    width: 70%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.counter-section .counter-container .counter-item{
+ width: 20%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.counter-section .counter-container .counter-item h3{
+    font-family: Montserrat,sans-serif;
+    font-size:6.4rem ;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    color:#fff;
+}
+.counter-section .counter-container .counter-item p{
+    font-family: Montserrat,sans-serif;
+    font-size: 2rem ;
+    font-weight: 700;
+    color:#fff;
+    
+}

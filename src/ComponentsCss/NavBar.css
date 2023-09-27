@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238,242,246);
+    height: 10rem;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    z-index: 999999;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.logo > img {
+    width: 33.3rem;
+}
+.menu > .menu-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:1.1rem;
+}
+.menu > .menu-list > .nav-link{
+    font-size: 1.85rem;
+    font-family: Montserrat,sans-serif;
+    color: #505056;
+    text-decoration:none ;
+    transition: 1s;
+}
+.menu > .menu-list > .nav-link:hover{
+    font-size: 2.2rem;
+  font-weight: 600;
+    border-bottom: 2px solid #0d6efd;
+    color:#0d6efd;
+}

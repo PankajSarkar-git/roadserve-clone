@@ -1,0 +1,66 @@
+.about-us-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 6.4rem;
+}
+.about-container .text-container{
+    text-align: center;
+
+}
+.about-container .text-container .heading {
+    color: #007aff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about-container .text-container .sub-heading {
+    color: #3d4759;
+    font-family: Forza;
+    font-size: 4.6rem;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+.about-container .text-container .pera {
+    font-size: 1.8rem;
+    color: #505056;
+    font-family: Montserrat,sans-serif;
+    margin: 3.2rem;
+}
+.about-container .About-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:75%;
+}
+.about-container .About-box .blank{
+    border-right: 1px solid black;
+    height : 7rem;
+}
+.about-container .About-box .item-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.about-container .About-box .item-box img{
+   height: 5rem;
+   vertical-align: middle;
+}
+.about-container .About-box .item-box .pera{
+    font-family: Montserrat,sans-serif;
+    font-size: 1.8rem;
+    line-height: 130%;
+    margin: 1.6rem;
+}
